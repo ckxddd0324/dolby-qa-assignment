@@ -5,8 +5,7 @@ require('dotenv').config();
 
 const { getApiKey } = require('../helper');
 
-const file_path =
-  '/Users/ckxddd/Documents/playground/dolby-qa-assignment/test_audio.wav';
+const file_path = 'test_audio.wav';
 const readStream = fs.createReadStream(file_path);
 
 describe('analyze sound @api-test', () => {
@@ -119,9 +118,7 @@ describe('analyze sound @api-test', () => {
       expect(res.status).to.be.eql(200, 'response is not 200');
       return res;
     });
-    const fileStream = fs.createWriteStream(
-      '/Users/ckxddd/Documents/playground/dolby-qa-assignment/output/output.json'
-    );
+    const fileStream = fs.createWriteStream('output.json');
     await new Promise((resolve, reject) => {
       response.body.pipe(fileStream);
       response.body.on('error', reject);
