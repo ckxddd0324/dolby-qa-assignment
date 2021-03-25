@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:ux": "node_modules/.bin/mocha -g @ui-test",
+    "test:api": "node_modules/.bin/mocha -g @api-test"
   },
   "repository": {
     "type": "git",
@@ -17,12 +18,13 @@
     "url": "https://github.com/ckxddd0324/dolby-qa-assignment/issues"
   },
   "homepage": "https://github.com/ckxddd0324/dolby-qa-assignment#readme",
-  "devDependencies": {
-    "cypress": "^6.8.0"
-  },
+  "devDependencies": {},
   "dependencies": {
     "chai": "^4.3.4",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.21",
     "mocha": "^8.3.2",
+    "node-fetch": "^2.6.1",
     "puppeteer": "^8.0.0"
   }
 }
