@@ -18,7 +18,7 @@ describe('analyze sound @api-test', () => {
     apiKey = await getApiKey();
     // comment the line above and add your api key below
     // this will not run the login helper
-    apiKey = 'keyyyyyy';
+    // apiKey = 'keyyyyyy';
   });
 
   it('create /media/input', async () => {
