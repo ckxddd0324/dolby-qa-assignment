@@ -22,4 +22,4 @@ $ npm run test:ux
 | env.variable |                |
 | ------------ | -------------- |
 | username     | login email    |
-| email        | login password |
+| password        | login password |
