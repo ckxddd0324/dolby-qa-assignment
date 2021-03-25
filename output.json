@@ -1,0 +1,156 @@
+{
+    "media_info": {
+        "container": {
+            "kind": "wav",
+            "duration": 15.0,
+            "bitrate": 708689,
+            "size": 1328792
+        },
+        "audio": {
+            "codec": "pcm",
+            "bit_depth": 16,
+            "channels": 1,
+            "sample_rate": 44100,
+            "duration": 15.0,
+            "bitrate": 705600
+        }
+    },
+    "processed_region": {
+        "start": 0.0,
+        "end": 15.0,
+        "audio": {
+            "clipping": {
+                "num_sections": 0,
+                "sections": []
+            },
+            "loudness": {
+                "measured": -12.06,
+                "range": 4.76,
+                "gating_mode": "level",
+                "sample_peak": -9.0,
+                "true_peak": -8.99,
+                "time_series": [
+                    [
+                        0.0,
+                        -120.0,
+                        -90.31,
+                        -85.5
+                    ],
+                    [
+                        1.0,
+                        -120.0,
+                        -90.31,
+                        -85.5
+                    ],
+                    [
+                        2.0,
+                        -93.26,
+                        -90.31,
+                        -85.5
+                    ],
+                    [
+                        3.0,
+                        -93.23,
+                        -90.31,
+                        -85.66
+                    ],
+                    [
+                        4.0,
+                        -93.23,
+                        -90.31,
+                        -85.45
+                    ],
+                    [
+                        5.0,
+                        -93.21,
+                        -9.0,
+                        -8.99
+                    ],
+                    [
+                        6.0,
+                        -93.22,
+                        -9.0,
+                        -8.99
+                    ],
+                    [
+                        7.0,
+                        -19.76,
+                        -9.0,
+                        -8.99
+                    ],
+                    [
+                        8.0,
+                        -15.0,
+                        -9.0,
+                        -8.99
+                    ],
+                    [
+                        9.0,
+                        -12.78,
+                        -9.0,
+                        -8.99
+                    ],
+                    [
+                        10.0,
+                        -11.99,
+                        -9.0,
+                        -8.99
+                    ],
+                    [
+                        11.0,
+                        -11.99,
+                        -9.0,
+                        -8.99
+                    ],
+                    [
+                        12.0,
+                        -11.99,
+                        -9.0,
+                        -8.99
+                    ],
+                    [
+                        13.0,
+                        -11.99,
+                        -9.0,
+                        -8.99
+                    ],
+                    [
+                        14.0,
+                        -11.99,
+                        -9.0,
+                        -8.99
+                    ]
+                ]
+            },
+            "bandwidth": 4651,
+            "noise": {
+                "snr_average": 77.99,
+                "level_average": -93.51
+            },
+            "music": {
+                "percentage": 0.0,
+                "num_sections": 0,
+                "sections": []
+            },
+            "speech": {
+                "percentage": 0.0,
+                "num_sections": 0,
+                "sections": []
+            },
+            "silence": {
+                "percentage": 33.2,
+                "num_sections": 1,
+                "sections": [
+                    {
+                        "section_id": "si_1",
+                        "start": 0.0,
+                        "duration": 4.98,
+                        "channels": [
+                            "ch_0"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
