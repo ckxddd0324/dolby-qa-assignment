@@ -15,8 +15,10 @@ describe('analyze sound @api-test', () => {
   const dolbySoundUrl = `dlb://in/example${new Date().getTime()}.wav`;
   const dolbySoundOutput = `dlb://out/example${new Date().getTime()}.analysis.json`;
   before(async () => {
-    // apiKey = await getApiKey();
-    apiKey = 'HlLlfeAFZU1ePKM1HNB2RkqO81FSavOw';
+    apiKey = await getApiKey();
+    // comment the line above and add your api key below
+    // this will not run the login helper
+    apiKey = 'keyyyyyy';
   });
 
   it('create /media/input', async () => {
